@@ -1,0 +1,12 @@
+[
+    {
+        "name": "后台管理系统模板(vue+view-design)",
+        "description": "适用于公司的后台管理系统",
+        "path": "template/thalys_tpl_cms"
+    },
+    {
+        "name": "小程序模板(uni-app+uView)",
+        "description": "适用于公司的多端小程序及H5项目",
+        "path": "template/thalys_tpl_sp"
+    }
+]

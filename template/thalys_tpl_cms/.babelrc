@@ -1,0 +1,14 @@
+{
+    "presets": ["@vue/app"],
+    "plugins": [
+        "@babel/plugin-syntax-dynamic-import",
+        "@babel/plugin-proposal-optional-chaining",
+        [
+            "import",
+            {
+                "libraryName": "vxe-table",
+                "style": true // 样式是否也按需加载
+            }
+        ]
+    ]
+}
