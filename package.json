@@ -1,83 +1,60 @@
 {
-  "_from": "thalys-cli",
-  "_id": "thalys-cli@0.0.7",
-  "_inBundle": false,
-  "_integrity": "sha512-stmocGvMhps+KiII7rPXAVXjSzInaujIgxyT/DfXRcMLQDTTQy74THweAvDJzJFvmOeA+mwmau39DEDO+2ANsA==",
-  "_location": "/thalys-cli",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "thalys-cli",
     "name": "thalys-cli",
-    "escapedName": "thalys-cli",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmmirror.com/thalys-cli/-/thalys-cli-0.0.7.tgz",
-  "_shasum": "854d53b98f68aec58f97329632eb2622e1ece0f2",
-  "_spec": "thalys-cli",
-  "_where": "/Users/mac/Documents/web3/basic_python_script",
-  "author": {
-    "name": "塞力斯前端团队"
-  },
-  "bin": {
-    "thalys": "bin/index.js"
-  },
-  "bundleDependencies": false,
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/vue-cli-plugin-norm/lib/cz"
-    }
-  },
-  "dependencies": {
-    "axios": "^0.18.0",
-    "chalk": "^2.4.2",
-    "commander": "^2.19.0",
-    "download": "^8.0.0",
-    "download-git-repo": "^3.0.2",
-    "enquirer": "^2.3.0",
-    "execa": "^1.0.0",
-    "fs-extra": "^7.0.1",
-    "import-global": "^0.1.0",
-    "inquirer": "^3.3.0",
-    "jstransformer-handlebars": "^1.1.0",
-    "kopy": "^8.3.1",
-    "ora": "^3.4.0"
-  },
-  "deprecated": false,
-  "description": "",
-  "devDependencies": {
-    "babel-eslint": "^10.1.0",
-    "commitizen": "^4.0.3",
-    "commitlint": "^8.2.0",
-    "conventional-changelog-cli": "^2.0.28",
-    "eslint": "^7.29.0",
-    "eslint-config-alloy": "3",
-    "eslint-plugin-vue": "^7.12.1",
-    "husky": "^3.0.9",
-    "right-pad": "^1.0.1",
-    "vue-cli-plugin-norm": "~1.2.12",
-    "vue-eslint-parser": "^7.6.0"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
-  "license": "ISC",
-  "main": "index.js",
-  "name": "thalys-cli",
-  "scripts": {
-    "c": "git add . && git-cz",
-    "clog": "conventional-changelog --config ./node_modules/vue-cli-plugin-norm/lib/log -i CHANGELOG.md -s -r 0 && commit-log",
-    "commit": "git add . && git-cz",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "version": "0.0.7"
+    "version": "1.0.3",
+    "description": "thalys vue cli for team",
+    "homepage": "https://github.com/xiao0502/thalys-cli",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/xiao0502/thalys-cli"
+    },
+    "author": "塞力斯前端团队",
+    "scripts": {
+        "c": "git add . && git-cz",
+        "clog": "conventional-changelog --config ./node_modules/vue-cli-plugin-norm/lib/log -i CHANGELOG.md -s -r 0 && commit-log",
+        "commit": "git add . && git-cz",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "main": "index.js",
+    "dependencies": {
+        "axios": "^0.18.0",
+        "chalk": "^2.4.2",
+        "commander": "^2.19.0",
+        "download": "^8.0.0",
+        "download-git-repo": "^3.0.2",
+        "enquirer": "^2.3.0",
+        "execa": "^1.0.0",
+        "fs-extra": "^7.0.1",
+        "import-global": "^0.1.0",
+        "inquirer": "^3.3.0",
+        "jstransformer-handlebars": "^1.1.0",
+        "kopy": "^8.3.1",
+        "ora": "^3.4.0"
+    },
+    "devDependencies": {
+        "babel-eslint": "^10.1.0",
+        "commitizen": "^4.0.3",
+        "commitlint": "^8.2.0",
+        "conventional-changelog-cli": "^2.0.28",
+        "eslint": "^7.29.0",
+        "eslint-config-alloy": "3",
+        "eslint-plugin-vue": "^7.12.1",
+        "husky": "^3.0.9",
+        "right-pad": "^1.0.1",
+        "vue-cli-plugin-norm": "~1.2.12",
+        "vue-eslint-parser": "^7.6.0"
+    },
+    "bin": {
+        "thalys": "./bin/index.js"
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/vue-cli-plugin-norm/lib/cz"
+        }
+    },
+    "husky": {
+        "hooks": {
+            "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+        }
+    },
+    "license": "MIT"
 }
